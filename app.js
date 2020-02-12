@@ -7,7 +7,7 @@ function submit() {
         method: "GET"
         }).then(function(response) {
         document.getElementById('cityInfo').innerHTML=response.name +", " + response.sys.country;
-        document.getElementById('weatherInfo').innerHTML="Current Tempurature: " +response.main.temp +"°";
+        document.getElementById('weatherInfo').innerHTML="Current Temperature: " +response.main.temp +"°";
         document.getElementById('max').innerHTML="High of " +response.main.temp_min+"°";
         document.getElementById('min').innerHTML="Low of " +response.main.temp_max+"°";
         document.getElementById('description').innerHTML="Expect " + response.weather[0].description;
