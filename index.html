@@ -1,1 +1,50 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=BioRhyme&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<!--main header-->
+<header>
+<h1>Your Weather App</h1>
+</header>
+<body>
+<!--bold idea that prob wont work. I want the background to change to gifs depending on the weather in the area-->    
+    <!--text input for city name-->
+    <h2>
+        <div class="input">
+        Enter a City:
+        <input type="text" id="cityName">
+        <button onclick="submit()">submit</button>
+        </div>
+        <br>
+    <!--city info div-->
+    <div id= "cityInfo">
+        <!--dump city and country name-->
+    </div>
+    <br>
+    <br>
+    <div id="weatherInfo">
+    </div>
+    <br>
+    <br>
+    <div id="min">
+    </div>
+    <br>
+    <br>
+    <div id="max">
+    </div>
+    <br>
+    <br>
+    <div id="description">
+    </div>
+    <br>
+</h2>  
+</body>
+<script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</html>

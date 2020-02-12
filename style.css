@@ -1,1 +1,25 @@
+*{
+background-size: cover;
+text-align: center;
+font-family: 'BioRhyme', serif;
+color: white;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+}
+h1{
+    color: white;
+	font-size: 50px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#cityInfo, #weatherInfo, #min, #max, #description{
+    display: inline-block;
+    color: slategrey;
+    border-radius: 10px;
+    background: white;
+    padding: 0.5em 0.2em 0.8em 0.5em;
+}
+#input{
+    font-size: 40px;
+}
 
