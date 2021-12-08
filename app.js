@@ -1,4 +1,7 @@
+document.getElementById('result-container').style.display = "none"
+
 function submit() {
+    document.getElementById('result-container').style.display = "block"
     var city = document.getElementById("cityName").value;
     var country = document.getElementById('country').value;
     var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city +"," + country+"&units=imperial&APPID=8c805a236f343d5723869bf3cdcb969a";
@@ -46,4 +49,4 @@ function submit() {
         } 
     });
 }
-    
+
