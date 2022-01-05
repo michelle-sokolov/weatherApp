@@ -1,4 +1,4 @@
-*{
+* {
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -8,7 +8,7 @@
     margin: auto; 
     width: 363px;
 }
-h1{
+h1 {
 	font-size: 50px;
     text-align: center;
     color: white;
@@ -32,12 +32,19 @@ h2 {
     border-radius: 5px; 
     background: white;
 }
-.submit-btn :hover {
+.result-inner-div  {
+    background: white;
+    padding: 5px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+.submit-btn:hover {
     cursor: pointer;
+    background: black;
+    color: white;
 }
 .result-inner-div {
-    margin:auto;     
-    width: 57%;
+    margin: auto;     
     padding-top: 10px;
     padding-bottom: 10px;
 }
