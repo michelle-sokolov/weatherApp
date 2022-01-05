@@ -15,25 +15,22 @@ function submit() {
         document.getElementById('min').innerHTML="Low of " +response.main.temp_max+"°";
         document.getElementById('description').innerHTML="Expect " + response.weather[0].description;
         if(response.weather[0].main.includes("Clouds")){
-            document.body.style.backgroundImage = "url('https://media.giphy.com/media/xT0xeifG3YWtHJ4HQI/giphy.gif')";
+            document.body.style.backgroundImage = "url('https://media.giphy.com/media/hrd7JFO6lbJNa5LqVb/giphy.gif')";
         }
         else if(response.weather[0].main.includes('Thunderstorm')){
-            document.body.style.backgroundImage = "url('https://media.giphy.com/media/rvdUftzA8567u/giphy.gif')";
-        }
-        else if(response.weather[0].main.includes('Thunderstorm')){
-            document.body.style.backgroundImage = "url('https://media.giphy.com/media/l4EpgC7V0bObAxeVy/giphy.gif.gif')";
+            document.body.style.backgroundImage = "url('https://media.giphy.com/media/QMI6md8Rb7CWHSHND7/giphy.gif')";
         }
         else if(response.weather[0].main.includes('Rain')){
-            document.body.style.backgroundImage = "url('https://media.giphy.com/media/dI3D3BWfDub0Q/giphy.gif')";
+            document.body.style.backgroundImage = "url('https://media.giphy.com/media/W9qCmeTuUoaFG/giphy.gif')";
         }
         else if(response.weather[0].main.includes('Snow')){
-            document.body.style.backgroundImage = "url('https://media.giphy.com/media/mHIBxnt87chc4/giphy.gif')";
+            document.body.style.backgroundImage = "url('https://media.giphy.com/media/wDBeMF7la9qzC0zOkQ/giphy.gif')";
         }   
         else if(response.weather[0].main.includes('Clear')){
-            document.body.style.backgroundImage = "url('https://media.giphy.com/media/xThta5hSxANYRimlP2/giphy.gif')";
+            document.body.style.backgroundImage = "url('https://media.giphy.com/media/jk9L41aToGZQA/giphy.gif')";
         } 
         else if(response.weather[0].main.includes('Mist')){
-            document.body.style.backgroundImage = "url('https://media.giphy.com/media/Z98zIhtiePuIo/giphy.gif')";
+            document.body.style.backgroundImage = "url('https://media.giphy.com/media/xT9IgqjmZ870vakg4E/giphy.gif')";
         }
         else if(response.weather[0].main.includes('Haze')){
             document.body.style.backgroundImage = "url('https://media.giphy.com/media/6hNJHnfsuoFDa/giphy.gif')";
@@ -45,7 +42,7 @@ function submit() {
             document.body.style.backgroundImage = "url('https://media.giphy.com/media/1dLzOOFcue96U/giphy.gif')";
         }  
         else{
-            document.body.style.backgroundImage = "url('https://media.giphy.com/media/PLJzdMVafDLTW/giphy.gif')";
+            document.body.style.background = "black";
         } 
     });
 }
